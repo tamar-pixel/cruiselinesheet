@@ -512,6 +512,11 @@
     .product-grid { gap: 16px; }
     body { font-size: 11px; }
   }
+
+.ghost-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; margin: 16px 0 8px; }
+.ghost-item { text-align: center; }
+.ghost-item img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 6px; background: #f8f7f5; }
+.ghost-item .ghost-label { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #888; margin-top: 6px; font-family: inherit; }
 </style>
 </head>
 <body>
@@ -1087,6 +1092,34 @@
       </div>
     </div>
 
+    <div class="product-card">
+      <img class="product-image" src="mariner-lipstick.jpg" alt="The Mariner Jacket">
+      <div class="product-info">
+        <span class="badge">Outerwear</span>
+        <h3>The Mariner Jacket</h3>
+        <div class="product-type">Jackets — Fringe-Trim</div>
+        <div class="product-meta">
+          <div><span class="label">Description</span><br>Double-breasted six-button front with structured collar and soft fringe trim. Tailored charm meets coastal cool.</div>
+          <div><span class="label">Colors</span>
+            <div class="ghost-grid">
+              <div class="ghost-item"><img src="mariner-black.jpg" alt="Black"><div class="ghost-label">Black</div></div>
+              <div class="ghost-item"><img src="mariner-ink.jpg" alt="Ink"><div class="ghost-label">Ink</div></div>
+              <div class="ghost-item"><img src="mariner-lipstick.jpg" alt="Lipstick"><div class="ghost-label">Lipstick</div></div>
+              <div class="ghost-item"><img src="mariner-pale-pink.jpg" alt="Pale Pink"><div class="ghost-label">Pale Pink</div></div>
+              <div class="ghost-item"><img src="mariner-sky.jpg" alt="Sky"><div class="ghost-label">Sky</div></div>
+            </div>
+          </div>
+          <div><span class="label">Sizes</span><br>XS — XL</div>
+          <div><span class="label">Fabric</span><br>72% Viscose, 28% Spandex</div>
+          <div class="price-block">
+            <span class="price-retail">Retail <s>$362.50</s></span>
+            <span class="price-sale">50% Off $181.25</span>
+            <span class="price-wholesale">Wholesale $72.50</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -1323,13 +1356,13 @@
         <div class="product-meta">
           <div><span class="label">Description</span><br>Sleek pullover design with side shoulder button closure. Effortless polish for brunch, dinner, or sea days. Pairs with denim or trousers.</div>
           <div><span class="label">Colors</span>
-            <div class="color-dots">
-              <span class="color-dot">Black</span>
-              <span class="color-dot">Ink</span>
-              <span class="color-dot">Lipstick</span>
-              <span class="color-dot">Pale Pink</span>
-              <span class="color-dot">Sky</span>
-              <span class="color-dot">Stone</span>
+            <div class="ghost-grid">
+              <div class="ghost-item"><img src="https://cdn.shopify.com/s/files/1/0688/2561/2484/files/Jenvie68827449a6936168827449a6aa7.2083077868827449a6aa7.jpg?v=1774379799" alt="Black"><div class="ghost-label">Black</div></div>
+              <div class="ghost-item"><img src="https://cdn.shopify.com/s/files/1/0688/2561/2484/files/Jenvie68827449c72ac868827449c73fa.2083676368827449c73fa.jpg?v=1774379799" alt="Ink"><div class="ghost-label">Ink</div></div>
+              <div class="ghost-item"><img src="https://cdn.shopify.com/s/files/1/0688/2561/2484/files/Jenvie68827449d379c268827449d3909.1981740668827449d3909.jpg?v=1774379799" alt="Lipstick"><div class="ghost-label">Lipstick</div></div>
+              <div class="ghost-item"><img src="https://cdn.shopify.com/s/files/1/0688/2561/2484/files/Jenvie68827449e0b1e468827449e0c5d.0696837468827449e0c5d.jpg?v=1774379799" alt="Pale Pink"><div class="ghost-label">Pale Pink</div></div>
+              <div class="ghost-item"><img src="https://cdn.shopify.com/s/files/1/0688/2561/2484/files/Jenvie6882744a0186066882744a019e1.344996916882744a019e1.jpg?v=1774379799" alt="Sky"><div class="ghost-label">Sky</div></div>
+              <div class="ghost-item"><img src="https://cdn.shopify.com/s/files/1/0688/2561/2484/files/Jenvie6882744a1599066882744a15b4b.722482546882744a15b4b.jpg?v=1774379799" alt="Stone"><div class="ghost-label">Stone</div></div>
             </div>
           </div>
           <div><span class="label">Sizes</span><br>One Size</div>
